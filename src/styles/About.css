@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Menjadikan komponen About satu halaman penuh */
-    padding: 6rem 2rem 2rem; /* Menambah ruang di bagian atas */
+    height: 100vh;
+    padding: 6rem 2rem 2rem; 
     background-color: #e2e2b6;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .greeting {
-    color: #6eacda;
+    color: #03346e;
     font-weight: bold;
     margin-bottom: 0.2rem;
     font-size: 2rem;
@@ -30,12 +30,14 @@ h1 {
     font-size: 2.5rem;
     margin: 0.5rem 0;
     color: #021526;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .description {
     color: #03346e;
     margin: 1rem 0 2rem;
     font-size: 1rem;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 1); 
 }
 
 .buttons {
@@ -76,4 +78,5 @@ h1 {
     width: 100%;
     max-width: 500px;
     object-fit: cover;
+    
 }

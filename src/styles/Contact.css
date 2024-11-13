@@ -5,7 +5,6 @@
 
 .contact h2 {
     font-size: 2.5rem;
-    margin-bottom: 40px;
     color:#6eacda;
 }
 
@@ -17,17 +16,33 @@
 
 .social-icons {
     display: flex;
-    justify-content: center; /* Align icons horizontally in the center */
-    gap: 30px; /* Space between the icons */
+    justify-content: center; 
+    gap: 30px; 
 }
 
 .social-icon {
-    font-size: 2.5rem; /* Adjust size of the icons */
-    color: #6eacda; /* Icon color */
+    font-size: 2.5rem; 
+    color: #6eacda; 
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
-    transform: scale(1.2); /* Slightly scale the icon on hover */
-    color: #e2e2b6; /* Change icon color on hover */
+    transform: scale(1.2); 
+    color: #e2e2b6; 
 }
+.email-link {
+    margin-top: 10spx;
+    font-size: 1rem;
+    color: #6eacda; 
+}
+
+.email-link a {
+    text-decoration: none;
+    color: #e2e2b6; 
+    transition: color 0.3s ease;
+}
+
+.email-link a:hover {
+    color: #6eacda; 
+}
+
