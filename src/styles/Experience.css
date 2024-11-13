@@ -1,0 +1,62 @@
+.experience {
+    padding: 80px 20px 50px 20px;
+    text-align: center;
+    
+    background-size: cover; /* Ensures the image covers the full area */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Makes sure the section takes up the full height of the viewport */
+}
+
+.experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #e2e2b6;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.experience-card {
+    background-color: #03346e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.experience-img {
+    width: 100%; /* Ensures the image takes the full width of the card */
+    height: 200px; /* Fixed height for consistent image size */
+    object-fit: cover; /* Ensures images fill the space without distortion */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.experience-info h3 {
+    font-size: 1.5rem;
+    color: #e2e2b6;
+}
+
+.experience-info h4 {
+    font-size: 1.2rem;
+    color: #6eacda;
+    margin: 10px 0;
+}
+
+.duration {
+    font-size: 1rem;
+    color: #6eacda;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.experience-info p {
+    font-size: 1rem;
+    color: #6eacda;
+}

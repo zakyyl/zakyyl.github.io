@@ -1,0 +1,79 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Menjadikan komponen About satu halaman penuh */
+    padding: 6rem 2rem 2rem; /* Menambah ruang di bagian atas */
+    background-color: #e2e2b6;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.greeting {
+    color: #6eacda;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    color: #021526;
+}
+
+.description {
+    color: #03346e;
+    margin: 1rem 0 2rem;
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-linkedin, .btn-github {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #03346e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-linkedin {
+    background-color: transparent;
+    color: #03346e;
+}
+
+.btn-github {
+    background-color: #03346e;
+    color: white;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+}
