@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.faeb351d.css",
+    "main.js": "/static/js/main.ccfee3d3.js",
+    "static/media/platinum.png": "/static/media/platinum.180af16478d251a41ceb.png",
+    "static/media/propil.png": "/static/media/propil.236f550fbbaea33e9fe1.png",
+    "static/media/aslab.png": "/static/media/aslab.9caf4b6823d6519812b4.png",
+    "static/media/medilab.png": "/static/media/medilab.96f1685a22ded8dcd4e9.png",
+    "static/media/komidentist.png": "/static/media/komidentist.2b40c682f88ec5dd12ce.png",
+    "static/media/ecom.png": "/static/media/ecom.18cfca36283abcb84725.png",
+    "static/media/clothestore.png": "/static/media/clothestore.63d4c1687623b7812646.png",
+    "static/media/hclothes.png": "/static/media/hclothes.71abb76495b3498b7f63.png",
+    "static/media/stupen.png": "/static/media/stupen.15ad0777aedb60b1029a.png",
+    "static/media/webnime.png": "/static/media/webnime.ba78708b2fe8eab0b9a9.png",
+    "static/media/pmbacai.png": "/static/media/pmbacai.ae73042c5c94d56c9ef0.png",
+    "static/media/keluhprov.png": "/static/media/keluhprov.a422c71560c9cc3010d0.png",
+    "static/media/wisuda.png": "/static/media/wisuda.adcc3c7e95e2d5e6ebaf.png",
+    "index.html": "/index.html",
+    "main.faeb351d.css.map": "/static/css/main.faeb351d.css.map",
+    "main.ccfee3d3.js.map": "/static/js/main.ccfee3d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faeb351d.css",
+    "static/js/main.ccfee3d3.js"
+  ]
+}
