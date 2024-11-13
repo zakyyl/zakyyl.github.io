@@ -20,6 +20,9 @@ const Contact = () => {
                         <FaGithub className="social-icon" />
                     </a>
                 </div>
+                <div className="email-link">
+                    <a href="mailto:zakyramadhakara@gmail.com">zakyramadhakara@gmail.com</a>
+                </div>
             </div>
         </section>
     );

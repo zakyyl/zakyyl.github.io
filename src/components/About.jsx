@@ -1,4 +1,3 @@
-// About.jsx
 import React from 'react';
 import '../styles/About.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
